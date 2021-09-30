@@ -1,0 +1,595 @@
+{
+  "quiz": {
+    "id": 22698,
+    "title": "Sinatra Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/22698",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/22698?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide.</span></p>\n<p><span>Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": false,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 10,
+    "points_possible": 10.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_22698"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/22698/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/22698/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/22698/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/22698/submission_versions",
+    "assignment_id": 146739,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6359,
+    "show_correct_answers_last_attempt": false,
+    "version_number": 2,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 22698,
+      "id": 148350,
+      "quiz_group_id": null,
+      "assessment_question_id": 183442,
+      "position": null,
+      "question_name": "Sinatra: Application Structure",
+      "question_type": "multiple_answers_question",
+      "question_text": "<div>\n<div><span>If we want to set up our app to return associated data in our JSON using </span><span>Active Record, which of the following steps are </span><span>**required**</span><span> (select all that </span><span>apply):</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134040?module_item_id=278736\" target=\"_blank\">S</a><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134040?module_item_id=278736\" target=\"_blank\">inatra Application Structure</a></p>",
+      "answers": [
+        {
+          "id": "3739",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Yes!</p>\n<p>We always need to set up the association in our Model file, because the model is what is responsible for setting up and updating the code in our database.</p>",
+          "weight": 100.0,
+          "html": "<p>Set up the association in our Model file.</p>"
+        },
+        {
+          "id": "3392",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Not quite!</p>\n<p>While using the `to_json` include option is going to be helpful down the line, it isn't **required** to get our associated data.</p>",
+          "weight": 0.0,
+          "html": "<p>Specify the association we want to include by using the `to_json` method's include option.</p>"
+        },
+        {
+          "id": "7793",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Not quite!</p>\n<p>While using the `only` include option is going to be helpful down the line in terms of specificity, it isn't **required** to get access to our associated data.</p>",
+          "weight": 0.0,
+          "html": "<p>Use the `only` option to specify which attributes we want to include.</p>"
+        },
+        {
+          "id": "5226",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p>We definitely want to make the connection to our frontend so our users can see our data, however it isn't required to actually access the associated data.</p>",
+          "weight": 0.0,
+          "html": "<p>Create a separate request for the associated data in our frontend.</p>"
+        },
+        {
+          "id": "947",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148351,
+      "quiz_group_id": null,
+      "assessment_question_id": 183444,
+      "position": null,
+      "question_name": "Sinatra: Requests",
+      "question_type": "short_answer_question",
+      "question_text": "<p><strong></strong><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">In the code snippet below, what goes in the blank?</span></p>\n<div><br>\n<div><span>```rb</span></div>\n<div><span>_________________</span> <span>do</span></div>\n<div><span>recipe</span><span> = </span><span>Recipe</span><span>.</span><span>create</span><span>(</span></div>\n<div><span>name:</span> <span>params</span><span>[</span><span>:name</span><span>],</span></div>\n<div><span>ingredients:</span> <span>params</span><span>[</span><span>:ingredients</span><span>]</span></div>\n<div><span> )</span></div>\n<div><span>recipe</span><span>.</span><span>to_json</span></div>\n<div><span>end</span></div>\n<div><span>```</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Try again... Let's double check what we are doing here; it looks like we're <em>creating </em>an instance of a Recipe. What method would we use to create a new instance? </span><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134063?module_item_id=278739\" target=\"_blank\">Sinatra with Active Record: POST/PATCH/DELETE Requests</a></li>\n</ul>",
+      "answers": [
+        {
+          "id": "1526",
+          "text": "post \"/recipes\"",
+          "comments": "",
+          "comments_html": "<p>Nailed it!</p>\n<p>We are creating an instance of a recipe, so we need to make a POST request to \"/recipes\".</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148352,
+      "quiz_group_id": null,
+      "assessment_question_id": 181161,
+      "position": null,
+      "question_name": "SInatra: Application Structure",
+      "question_type": "matching_question",
+      "question_text": "<div><span>Match each of the files/folders below with what it's responsible for.</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Nice!&nbsp;</p>\n<p><span>By organizing our code this way and clearly separating out the different parts of the application, it becomes much easier for us and other developers to know where to add new code when it's time to build onto or modify our app.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134040?module_item_id=278736\" target=\"_blank\">S</a><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134040?module_item_id=278736\" target=\"_blank\">inatra Application Structure</a></p>",
+      "answers": [
+        {
+          "id": 1283,
+          "text": "app/models",
+          "left": "app/models",
+          "right": "Contains code that accesses and updates data in our database",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1638
+        },
+        {
+          "id": 8374,
+          "text": "config",
+          "left": "config",
+          "right": "Contains for environment setup, like requiring files/gems, and establishing a connection to the database",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 7844
+        },
+        {
+          "id": 9184,
+          "text": "db/migrate",
+          "left": "db/migrate",
+          "right": "Contains code that is responsible for creating and altering the structure of the database",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4293
+        },
+        {
+          "id": 9990,
+          "text": "db/seed",
+          "left": "db/seed",
+          "right": "Allows us to easily add sample data to the database",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4067
+        },
+        {
+          "id": 1592,
+          "text": "Gemfile",
+          "left": "Gemfile",
+          "right": "Lists all the dependencies for our application",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 967
+        },
+        {
+          "id": 4349,
+          "text": "Rakefile",
+          "left": "Rakefile",
+          "right": "Contains code for tasks we can run from the command line",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9152
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "Contains code that accesses and updates data in our database",
+          "match_id": 1638
+        },
+        {
+          "text": "Contains for environment setup, like requiring files/gems, and establishing a connection to the database",
+          "match_id": 7844
+        },
+        {
+          "text": "Contains code that is responsible for creating and altering the structure of the database",
+          "match_id": 4293
+        },
+        {
+          "text": "Allows us to easily add sample data to the database",
+          "match_id": 4067
+        },
+        {
+          "text": "Lists all the dependencies for our application",
+          "match_id": 967
+        },
+        {
+          "text": "Contains code for tasks we can run from the command line",
+          "match_id": 9152
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148353,
+      "quiz_group_id": null,
+      "assessment_question_id": 181146,
+      "position": null,
+      "question_name": "Sinatra: HTTP",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<div>\n<div><span>In the request/response cycle, the [option1]</span><span>&nbsp;(usually the browser) sends a</span></div>\n<div><span>request, and the [option2] returns a response.&nbsp;</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>\n<p><span>The internet operates based on conversations between the client (more familiarly known as the browser) and the server (the code running the web site you're trying to load). By typing in that URL into your browser, you (the client) are&nbsp;</span><em>requesting</em><span>&nbsp;a web page. The server then receives the request, processes it, and sends a&nbsp;</span><em>response</em><span>. Your browser receives that response and shows it to you.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/how-the-web-works?module_item_id=278730\" target=\"_blank\">How The Web Works</a></p>",
+      "answers": [
+        {
+          "id": "9593",
+          "text": "client",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "option1"
+        },
+        {
+          "id": "6092",
+          "text": "Client",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "option1"
+        },
+        {
+          "id": "6903",
+          "text": "server",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "option2"
+        },
+        {
+          "id": "4004",
+          "text": "Server",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "option2"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148354,
+      "quiz_group_id": null,
+      "assessment_question_id": 183443,
+      "position": null,
+      "question_name": "Sinatra: Methods",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>To return associated data in our JSON (e.g., if we want the JSON for an</span></div>\n<div><span>Author to also contain a list of their books), we can do that using the</span></div>\n<div><span>_________ method.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134041?module_item_id=278733\" target=\"_blank\">Sinatra with Active Record: GET Requests</a></li>\n</ul>",
+      "answers": [
+        {
+          "id": "5297",
+          "text": "include",
+          "comments": "",
+          "comments_html": "<p>You got it!</p>\n<p><span>To return data about associated models in our JSON, we can pass the&nbsp;</span><code>include:</code><span>&nbsp;option.</span></p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148355,
+      "quiz_group_id": null,
+      "assessment_question_id": 181162,
+      "position": null,
+      "question_name": "Sinatra: MVC",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>In order to set up the MVC architecture in a Sinatra app, we need to include</span></div>\n<div><span>code to run the controller (e.g., </span><span>`run ApplicationController`</span><span>) in the</span></div>\n<div><span>__</span><span>__________ file.&nbsp;</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134040?module_item_id=278736\" target=\"_blank\">S</a><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134040?module_item_id=278736\" target=\"_blank\">inatra Application Structure</a></p>",
+      "answers": [
+        {
+          "id": 1181,
+          "text": "config.ru",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>By adding code to run the controller in the config.ru file, we are able to run our application from one file without our code getting out of control.&nbsp;</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148356,
+      "quiz_group_id": null,
+      "assessment_question_id": 183439,
+      "position": null,
+      "question_name": "Sinatra: Params Hash",
+      "question_type": "multiple_answers_question",
+      "question_text": "<div>\n<div><span>Which of the following can be accessed from the `</span><span>params</span><span> hash?` (select all that apply)</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p>Source/s:&nbsp;</p>\n<ul>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134039?module_item_id=278741\" target=\"_blank\">Creating a Sinatra Application</a></li>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134063?module_item_id=278739\" target=\"_blank\">Sinatra with Active Record: POST/PATCH/DELETE Requests</a></li>\n</ul>",
+      "answers": [
+        {
+          "id": "4919",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Nice!</p>\n<p><span>Through the params hash, we can access data from the dynamic portion of a route.</span></p>",
+          "weight": 100.0,
+          "html": "<p>Values of named parameters defined in a route</p>"
+        },
+        {
+          "id": "1818",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>We are able to add user-provided information to the `params hash` through the request body.</p>",
+          "weight": 100.0,
+          "html": "<p>User-provided information (e.g., from a form)</p>"
+        },
+        {
+          "id": "6910",
+          "text": "Information to be passed in the body of a `POST` or `PATCH` request.",
+          "comments": "",
+          "comments_html": "<p>Nailed it!</p>\n<p>We can add the information from the body of a request to our params hash, so we can access that information later.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": "2402",
+          "text": "Metadata about a server request",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p>The params hash gives us access to information we get from requests and named parameters. The server request metadata is not included.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": "6323",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148357,
+      "quiz_group_id": null,
+      "assessment_question_id": 181163,
+      "position": null,
+      "question_name": "Sinatra: Requests",
+      "question_type": "short_answer_question",
+      "question_text": "<div><span>In the code snippet below, what goes inside the parentheses?</span></div>\n<div><code><span>get</span> <span>'/recipes/:id'</span> <span>do</span></code></div>\n<div><code><span>recipe</span><span> = </span><span>Recipe</span><span>.</span><span>find</span><span>(</span><span>_________</span><span>)</span></code></div>\n<div><code><span>recipe</span><span>.</span><span>to_json</span></code></div>\n<div><code><span>end</span></code></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Not quite... We're trying to find a specific instance of a recipe, and the best way to do that is by finding the ID, right? Where do we have access to the ID?</span></p>\n<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/video-sinatra-get?module_item_id=294225\" target=\"_blank\">Video: Sinatra GET</a></p>",
+      "answers": [
+        {
+          "id": "7822",
+          "text": "params[:id]",
+          "comments": "",
+          "comments_html": "<p>Correct!&nbsp;</p>\n<p>By using the .find method to find a specific ID, we are able to use that to create the dynamic route for our GET request.</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148358,
+      "quiz_group_id": null,
+      "assessment_question_id": 181149,
+      "position": null,
+      "question_name": "Sinatra: Routing",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<div>\n<div><span>A completely specified route consists of two parts: the [part1] (which</span></div>\n<div><span>specifies the type of action being requested) and the [part2] (also known as</span></div>\n<div><span>the resource).</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>\n<p>When creating a specific route, we need to provide the HTTP Verb we are requesting, as well as where we're sending this verb.</p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134039?module_item_id=278741\" target=\"_blank\">Creating a Sinatra Application</a></p>",
+      "answers": [
+        {
+          "id": "8130",
+          "text": "http verb",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "part1"
+        },
+        {
+          "id": "8344",
+          "text": "HTTP verb",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "part1"
+        },
+        {
+          "id": "7260",
+          "text": "path",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "part2"
+        },
+        {
+          "id": "7140",
+          "text": "Path",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "part2"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22698,
+      "id": 148359,
+      "quiz_group_id": null,
+      "assessment_question_id": 181150,
+      "position": null,
+      "question_name": "Sinatra: Routing",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>To define a </span><span>**dynamic**</span><span> route, we need to include a/an </span><span>__</span><span>________ in the </span><span>path.&nbsp;</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Nice Job!</p>\n<p>When defining a dynamic route, we have to be sure to provide a named parameter, any requests that match our pattern will be used. <span>The other benefit of using this named parameters, is that we get access to additional data from the url from the params hash!</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134039?module_item_id=278741\" target=\"_blank\">Creating a Sinatra Application</a></p>",
+      "answers": [
+        {
+          "id": "980",
+          "text": "parameter",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "341",
+          "text": "named parameter",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
