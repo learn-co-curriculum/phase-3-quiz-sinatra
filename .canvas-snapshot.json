@@ -98,7 +98,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134063\">Sinatra with Active Record: POST/PATCH/DELETE Requests</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8668,
+          "id": "8668",
           "text": "post",
           "comments": "",
           "comments_html": "<p>Nailed it! We are creating an instance of a recipe, so we need to set up a\nroute to handle POST requests to \"/recipes\".</p>",
@@ -130,58 +130,58 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134040\">Sinatra Application Structure</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3157,
+          "id": "3157",
           "text": "app/models",
           "left": "app/models",
           "right": "Contains code that accesses and updates data in our database",
           "comments": "",
           "comments_html": "",
-          "match_id": 7723
+          "match_id": 8395
         },
         {
-          "id": 8841,
+          "id": "8841",
           "text": "config",
           "left": "config",
           "right": "Contains for environment setup, like requiring files/gems, and establishing a\nconnection to the database",
           "comments": "",
           "comments_html": "",
-          "match_id": 2845
+          "match_id": 9542
         },
         {
-          "id": 1400,
+          "id": "1400",
           "text": "db/migrate",
           "left": "db/migrate",
           "right": "Contains code that is responsible for creating and altering the structure of\nthe database",
           "comments": "",
           "comments_html": "",
-          "match_id": 3057
+          "match_id": 7433
         },
         {
-          "id": 7209,
+          "id": "7209",
           "text": "db/seed.rb",
           "left": "db/seed.rb",
           "right": "Allows us to easily add sample data to the database",
           "comments": "",
           "comments_html": "",
-          "match_id": 3453
+          "match_id": 3135
         },
         {
-          "id": 600,
+          "id": "600",
           "text": "Gemfile",
           "left": "Gemfile",
           "right": "Lists all the dependencies for our application",
           "comments": "",
           "comments_html": "",
-          "match_id": 6593
+          "match_id": 8954
         },
         {
-          "id": 4282,
+          "id": "4282",
           "text": "Rakefile",
           "left": "Rakefile",
           "right": "Contains code for tasks we can run from the command line",
           "comments": "",
           "comments_html": "",
-          "match_id": 5990
+          "match_id": 374
         }
       ],
       "variables": null,
@@ -191,27 +191,27 @@
       "matches": [
         {
           "text": "Contains code that accesses and updates data in our database",
-          "match_id": 7723
+          "match_id": 8395
         },
         {
           "text": "Contains for environment setup, like requiring files/gems, and establishing a\nconnection to the database",
-          "match_id": 2845
+          "match_id": 9542
         },
         {
           "text": "Contains code that is responsible for creating and altering the structure of\nthe database",
-          "match_id": 3057
+          "match_id": 7433
         },
         {
           "text": "Allows us to easily add sample data to the database",
-          "match_id": 3453
+          "match_id": 3135
         },
         {
           "text": "Lists all the dependencies for our application",
-          "match_id": 6593
+          "match_id": 8954
         },
         {
           "text": "Contains code for tasks we can run from the command line",
-          "match_id": 5990
+          "match_id": 374
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -224,7 +224,7 @@
       "position": null,
       "question_name": "Sinatra: HTTP",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p>In the request/response cycle, the <a href=\"usually%20the%20browser\">option1</a> sends a\nrequest, and the [option2] returns a response.</p>",
+      "question_text": "<p>In the request/response cycle, the [option1] — usually the browser — sends a\nrequest, and the [option2] returns a response.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -234,7 +234,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/how-the-web-works\">How The Web Works</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5194,
+          "id": "5194",
           "text": "client",
           "comments": "",
           "comments_html": "",
@@ -242,7 +242,7 @@
           "blank_id": "option1"
         },
         {
-          "id": 5527,
+          "id": "5527",
           "text": "Client",
           "comments": "",
           "comments_html": "",
@@ -250,7 +250,7 @@
           "blank_id": "option1"
         },
         {
-          "id": 2209,
+          "id": "2209",
           "text": "server",
           "comments": "",
           "comments_html": "",
@@ -258,7 +258,7 @@
           "blank_id": "option2"
         },
         {
-          "id": 8121,
+          "id": "8121",
           "text": "Server",
           "comments": "",
           "comments_html": "",
@@ -291,7 +291,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134040\">Sinatra Application Structure</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2275,
+          "id": "2275",
           "text": "config.ru",
           "comments": "",
           "comments_html": "<p>Correct! By adding code to run the controller in the <code>config.ru</code> file, we are\nable to run our application from one file without our code getting out of\ncontrol.</p>",
@@ -323,7 +323,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134039\">Creating a Sinatra Application</a></li><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134063\">Sinatra with Active Record: POST/PATCH/DELETE Requests</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8982,
+          "id": "8982",
           "text": "",
           "comments": "",
           "comments_html": "<p>Nice! Through the params hash, we can access data from the dynamic portion of\na route.</p>",
@@ -331,7 +331,7 @@
           "html": "<p>Values of named URL parameters defined in a route</p>"
         },
         {
-          "id": 4758,
+          "id": "4758",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We are able to add user-provided information to the <code>params</code> hash\nthrough the request body.</p>",
@@ -339,7 +339,7 @@
           "html": "<p>User-provided information (e.g., from a form)</p>"
         },
         {
-          "id": 809,
+          "id": "809",
           "text": "",
           "comments": "",
           "comments_html": "<p>Nailed it! We can access the information from the body of a request in our\nparams hash.</p>",
@@ -347,7 +347,7 @@
           "html": "<p>Information to be passed in the body of a <code>POST</code> or <code>PATCH</code> request.</p>"
         },
         {
-          "id": 2030,
+          "id": "2030",
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! The params hash gives us access to information we get from requests\nand named parameters. The request metadata is not included.</p>",
@@ -355,7 +355,7 @@
           "html": "<p>Metadata about a server request, like headers</p>"
         },
         {
-          "id": 9121,
+          "id": "9121",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -388,21 +388,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/video-sinatra-get\">Video: Sinatra GET</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5659,
+          "id": "5659",
           "text": "params[:id]",
           "comments": "",
           "comments_html": "<p>Correct! We can use the <code>params</code> hash to access the URL params from the\ndynamic part of our URL path, and use the <code>.find</code> method to find a recipe with\na specific ID based on the requested URL.</p>",
           "weight": 100
         },
         {
-          "id": 699,
+          "id": "699",
           "text": "params['id']",
           "comments": "",
           "comments_html": "<p>Correct! We can use the <code>params</code> hash to access the URL params from the\ndynamic part of our URL path, and use the <code>.find</code> method to find a recipe with\na specific ID based on the requested URL.</p>",
           "weight": 100
         },
         {
-          "id": 8773,
+          "id": "8773",
           "text": "params[\"id\"]",
           "comments": "",
           "comments_html": "<p>Correct! We can use the <code>params</code> hash to access the URL params from the\ndynamic part of our URL path, and use the <code>.find</code> method to find a recipe with\na specific ID based on the requested URL.</p>",
