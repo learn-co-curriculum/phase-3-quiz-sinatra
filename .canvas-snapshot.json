@@ -136,7 +136,7 @@
           "right": "Contains code that accesses and updates data in our database",
           "comments": "",
           "comments_html": "",
-          "match_id": 8395
+          "match_id": 6111
         },
         {
           "id": "8841",
@@ -145,7 +145,7 @@
           "right": "Contains for environment setup, like requiring files/gems, and establishing a\nconnection to the database",
           "comments": "",
           "comments_html": "",
-          "match_id": 9542
+          "match_id": 9670
         },
         {
           "id": "1400",
@@ -154,7 +154,7 @@
           "right": "Contains code that is responsible for creating and altering the structure of\nthe database",
           "comments": "",
           "comments_html": "",
-          "match_id": 7433
+          "match_id": 5175
         },
         {
           "id": "7209",
@@ -163,7 +163,7 @@
           "right": "Allows us to easily add sample data to the database",
           "comments": "",
           "comments_html": "",
-          "match_id": 3135
+          "match_id": 2240
         },
         {
           "id": "600",
@@ -172,7 +172,7 @@
           "right": "Lists all the dependencies for our application",
           "comments": "",
           "comments_html": "",
-          "match_id": 8954
+          "match_id": 7614
         },
         {
           "id": "4282",
@@ -181,7 +181,7 @@
           "right": "Contains code for tasks we can run from the command line",
           "comments": "",
           "comments_html": "",
-          "match_id": 374
+          "match_id": 4316
         }
       ],
       "variables": null,
@@ -191,27 +191,27 @@
       "matches": [
         {
           "text": "Contains code that accesses and updates data in our database",
-          "match_id": 8395
+          "match_id": 6111
         },
         {
           "text": "Contains for environment setup, like requiring files/gems, and establishing a\nconnection to the database",
-          "match_id": 9542
+          "match_id": 9670
         },
         {
           "text": "Contains code that is responsible for creating and altering the structure of\nthe database",
-          "match_id": 7433
+          "match_id": 5175
         },
         {
           "text": "Allows us to easily add sample data to the database",
-          "match_id": 3135
+          "match_id": 2240
         },
         {
           "text": "Lists all the dependencies for our application",
-          "match_id": 8954
+          "match_id": 7614
         },
         {
           "text": "Contains code for tasks we can run from the command line",
-          "match_id": 374
+          "match_id": 4316
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -448,14 +448,6 @@
           "comments_html": "",
           "weight": 100.0,
           "blank_id": "part2"
-        },
-        {
-          "id": 4617,
-          "text": "headers",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100,
-          "blank_id": "status code"
         }
       ],
       "variables": null,
